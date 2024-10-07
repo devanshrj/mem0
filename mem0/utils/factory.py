@@ -22,6 +22,7 @@ class LlmFactory:
         "openai_structured": "mem0.llms.openai_structured.OpenAIStructuredLLM",
         "anthropic": "mem0.llms.anthropic.AnthropicLLM",
         "azure_openai_structured": "mem0.llms.azure_openai_structured.AzureOpenAIStructuredLLM",
+        "notdiamond": "mem0.llms.notdiamond.NotDiamondLLM",
     }
 
     @classmethod
